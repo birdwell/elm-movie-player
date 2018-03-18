@@ -9046,12 +9046,8 @@ var _user$project$Main$player = function (model) {
 					_0: _elm_lang$html$Html_Attributes$src(_p0._0.trailer),
 					_1: {
 						ctor: '::',
-						_0: _elm_lang$html$Html_Attributes$width(520),
-						_1: {
-							ctor: '::',
-							_0: _elm_lang$html$Html_Attributes$height(325),
-							_1: {ctor: '[]'}
-						}
+						_0: _elm_lang$html$Html_Attributes$height(325),
+						_1: {ctor: '[]'}
 					}
 				}
 			},

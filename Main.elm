@@ -79,7 +79,7 @@ player: Model -> Html Msg
 player model =
     case model.selectedMovie of
         Just movie ->
-            iframe [ class "movie-player", src movie.trailer, width 520, height 325 ] []
+            iframe [ class "movie-player", src movie.trailer, height 325 ] []
         Nothing ->
             div [ class "empty-player" ] []
 

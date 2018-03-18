@@ -1,0 +1,29 @@
+li.movie-item {
+    height: 150px;
+    width: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    list-style: none;
+    cursor: pointer;
+}
+
+ul.movie-list {
+    display: flex;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0px;
+    justify-content: space-evenly;
+}
+.movieplayer-wrapper {
+    max-width: 525px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #717171;
+    padding: 15px;
+}
+
+iframe.movie-player {
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+}
